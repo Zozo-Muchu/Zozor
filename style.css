@@ -274,3 +274,48 @@ width: 33%;
         text-align: center;
     }
 }
+@media all and (max-width: 1800px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    nav li
+    {
+        display: block;
+    }
+    nav a 
+    {
+        font-size: 1em;
+    }
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    #banniere_image
+    {
+        display: none;
+    }
+    article, aside
+    {
+        width: auto;
+        display: block;
+    }
+    #fleche_bulle
+    {
+        display: none;
+    }
+    #photo_zozor img
+    {
+        float: right;
+    }
+    aside p
+    {
+        text-align: center;
+    }
+}
